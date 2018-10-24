@@ -14,6 +14,7 @@ var tie = 0;
 var uc;
 var cc;
 
+var div = $("<div>");
 
 
 // DOCUMENT READY FUNCTION BELOW
@@ -138,4 +139,12 @@ function reset(){
     $("#score").text("your score = "+"win: "+wins+" tie: "+tie+" lose: "+lose)
 
 }
+
+//divs
+
+div.addClass("results")
+
+
+
+
 });
